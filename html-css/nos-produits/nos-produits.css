@@ -1,0 +1,32 @@
+/* 
+DOCUMENT INFORMATION
+    -Document : No Losses - Nos Produits
+    -Version : 1.0.0
+    -Author : Alexis Choloux
+    -Date : 10.2019
+
+FONTS
+    -h1, h2, h3, h4, h5, h6= 
+    Oswald, sans serif
+    -Else= Roboto Condensed, sans serif
+
+COLORS
+    -Primary= rgb(8, 126, 52)
+    -Secondary= rgb(87, 170, 38)
+    -Tertiary= white
+    -Special= rgb(170, 38, 38)
+
+CSS DIRECTORY
+    1. GENERAL
+*/
+
+/* GENERAL
+======================== */
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
