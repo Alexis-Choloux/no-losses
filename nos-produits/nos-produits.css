@@ -18,15 +18,33 @@ COLORS
 
 CSS DIRECTORY
     1. GENERAL
+    2. TITLE
+    3. NAV RIGHT
+    -boutique
 */
 
-/* GENERAL
-======================== */
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Oswald', sans-serif;
+
+/* TITLE
+========================== */
+.btn-boutique {
+    margin: 50px 0 10px 0;
 }
 
-p {
-    font-family: 'Roboto Condensed', sans-serif;
+.btn-boutique button {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
+
+/* NAV RIGHT
+========================= */
+/* boutique */
+#nav-right h4 {
+    border-bottom: solid grey 1px;
+    padding-bottom: 10px;
+}
+
+/* meilleures ventes */
+#nav-right img {
+    height: 150px;
+}
