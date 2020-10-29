@@ -21,6 +21,8 @@ CSS DIRECTORY
     2. TITLE
     3. NAV RIGHT
     -boutique
+    -meilleurs ventes
+    4.CONTENT
 */
 
 
@@ -35,6 +37,9 @@ CSS DIRECTORY
     margin-bottom: 10px;
 }
 
+.title {
+    margin-top: 30px;
+}
 
 /* NAV RIGHT
 ========================= */
@@ -47,4 +52,20 @@ CSS DIRECTORY
 /* meilleures ventes */
 #nav-right img {
     height: 150px;
+}
+
+/* CONTENT
+========================= */
+#content img {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 25px;
+}
+
+#content .col-md-6 {
+    margin-bottom: 50px;
 }
