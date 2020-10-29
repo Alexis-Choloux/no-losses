@@ -18,15 +18,28 @@ COLORS
 
 CSS DIRECTORY
     1. GENERAL
+    2. FIRST PART
+    3. SECOND PART
+    -form
+    -social
+    4. THIRD PART
 */
 
 /* GENERAL
 ======================== */
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Oswald', sans-serif;
+
+/* FIRST PART
+======================== */
+#first-part img{
+    height: 300px;
+    border-radius: 10px;
 }
 
-p {
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
+/* SECOND PART
+======================== */
+#second-part img {
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
