@@ -18,15 +18,47 @@ COLORS
 
 CSS DIRECTORY
     1. GENERAL
+    2. FIRST PART
+    3. SECOND PART
+    4. THIRD PART
+    5. MEDIA QUERIES
 */
 
 /* GENERAL
 ======================== */
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Oswald', sans-serif;
+
+
+/* FIRST PART
+======================= */
+#first-part p { 
+    margin-top: 40px;
 }
 
-p {
-    font-family: 'Roboto Condensed', sans-serif;
+span {
+    font-weight: bold;
 }
 
+#green {
+    color: green;
+}
+#yellow {
+    color: rgb(187, 187, 18);
+}
+#red {
+    color: rgb(160, 12, 12);
+}
+
+
+/* SECOND PART
+======================= */
+#second-part img {
+    height: 300px;
+}
+
+/* MEDIA QUERIES
+======================= */
+@media screen and (max-width:767px) {
+    main img {
+        width: 90vw;
+    }
+}
