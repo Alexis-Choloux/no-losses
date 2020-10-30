@@ -53,6 +53,7 @@ span {
 ======================= */
 #second-part img {
     height: 300px;
+    border-radius: 25px;
 }
 
 /* MEDIA QUERIES

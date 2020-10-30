@@ -34,6 +34,7 @@ CSS DIRECTORY
 ======================== */
 section {
     margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -122,7 +123,6 @@ nav img {
 
 nav ul li {
     margin-right: 70px;
-    padding-bottom: 10px;
 }
 nav ul li:hover {
     border-bottom: solid  rgb(8, 126, 52) 2px;
