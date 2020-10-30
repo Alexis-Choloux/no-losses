@@ -43,6 +43,12 @@ CSS DIRECTORY
 
 /* NAV RIGHT
 ========================= */
+#nav-right button:hover {
+    scale: 1;
+    background-color: transparent;
+    border: none;
+}
+
 /* boutique */
 #nav-right h4 {
     border-bottom: solid grey 1px;
@@ -53,6 +59,7 @@ CSS DIRECTORY
 #nav-right img {
     height: 150px;
 }
+
 
 /* CONTENT
 ========================= */
