@@ -1,0 +1,75 @@
+/* 
+DOCUMENT INFORMATION
+    -Document : No Losses - Nos Produits
+    -Version : 1.0.0
+    -Author : Alexis Choloux
+    -Date : 10.2019
+
+FONTS
+    -h1, h2, h3, h4, h5, h6= 
+    Oswald, sans serif
+    -Else= Roboto Condensed, sans serif
+
+COLORS
+    -Primary= rgb(8, 126, 52)
+    -Secondary= rgb(87, 170, 38)
+    -Tertiary= white
+    -Special= rgb(170, 38, 38)
+
+CSS DIRECTORY
+    1. GENERAL
+    2. TITLE
+    3. NAV RIGHT
+    -boutique
+    -meilleurs ventes
+    4.CONTENT
+*/
+
+
+/* TITLE
+========================== */
+.btn-boutique {
+    margin: 50px 0 10px 0;
+}
+
+.btn-boutique button {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-top: 30px;
+}
+.title h2 {
+    font-size: 70px;
+}
+
+/* NAV RIGHT
+========================= */
+/* boutique */
+#nav-right h4 {
+    border-bottom: solid grey 1px;
+    padding-bottom: 10px;
+}
+
+/* meilleures ventes */
+#nav-right img {
+    height: 150px;
+}
+
+/* CONTENT
+========================= */
+#content img {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 25px;
+}
+
+#content .col-md-6 {
+    margin-bottom: 50px;
+    background-color: white;
+}
